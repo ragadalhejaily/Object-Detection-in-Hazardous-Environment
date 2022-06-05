@@ -11,6 +11,9 @@
  
 -Link: https://data.mendeley.com/datasets/766ygrbt8y/3
 - We modified the mistakes we found in the annotated files for each image and split the dataset into 75% train,15% val,10% test
+## Proposed Model for Object Detection in Hazardous Environment 
+- We train the YoloV5s detector on the our dataset to detect and locate the object in image.
+- the dataset At folder DAWN_holdoutV2
 ## Results on test images
 <p align="center">
  <img src="https://user-images.githubusercontent.com/24452519/172029966-ca5833bd-9925-4528-a3a6-98d622cecfe0.jpg" 
