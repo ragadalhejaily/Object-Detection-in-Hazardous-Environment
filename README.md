@@ -14,7 +14,7 @@
 ## Proposed Model for Object Detection in Hazardous Environment 
 - We train the YoloV5s detector on the our dataset to detect and locate the object in image.
 - the dataset At folder DAWN_holdoutV2
-## Results on test images
+## Results 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/24452519/172029966-ca5833bd-9925-4528-a3a6-98d622cecfe0.jpg" 
 alt="compreface-main-page" width="390px" style="padding: 0px 0px 0px 10px;">
