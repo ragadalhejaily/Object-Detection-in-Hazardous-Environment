@@ -14,6 +14,11 @@
 ## Proposed Model for Object Detection in Hazardous Environment 
 - We train the YoloV5s detector on the our dataset to detect and locate the object in image.
 - the dataset At [folder DAWN_holdoutV2](https://drive.google.com/drive/folders/15CbWMwl-L_YFbPzjDluJBRAqmIFPnrLf?usp=sharing)
+## Running the code
+- Run the  trian code :  `python train.py --img 640  --batch 2 --epochs 100 --cfg yolov5l.yaml --data custom_data_cfg.yaml --weights 'yolov5s.pt' --nosave --cache`
+- Run the  test code :  `python test.py  --data custom_data_cfg.yaml  --img 640  --conf 0.040 --weights /runs/train/exp/weights/last.pt`
+- Run the  val code :  `python val.py  --data custom_data_cfg.yaml  --img 640  --conf 0.040 --weights /runs/train/exp/weights/last.pt`
+
 ## Results 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/24452519/172029966-ca5833bd-9925-4528-a3a6-98d622cecfe0.jpg" 
